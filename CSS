@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+
+.logo {
+    height: 550;
+    width: 550;
+    justify-content: left;
+}
+
+.aqui {
+    font-family: 'Kanit';
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding: 2px 8px;
+
+    color: rgb(75, 75, 75);
+    
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.aqui:hover {
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+
+main {
+    border-top: 3px solid orange;
+}
+
+h1{
+    color: orange;
+    font-family: 'Kanit';
+
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: rgb(75, 75, 75);
+    color: orange;
+    padding: 40px;
+    margin-top: 72px;
+    border-radius: 5px;
+    font-family: 'Kanit';
+}
+h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Kanit';
+   
+}
+
+h5:hover{
+    transition: margin-left 0.7s, transform 0.7s;
+    transform: scale(1.2);
+    margin-left: 14px;
+}
+
+li {
+     transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+li:hover {
+    transition: margin-left 0.7s, transform 0.7s;
+    transform: scale(1.2);
+    margin-left: 14px;
+}
+
+.cursosead {
+    color: black;
+    cursor: pointer;
+    font-family: 'Kanit';
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.cursosead:hover {
+    color: orange;
+    transition: margin-left 0.7s, transform 0.7s;
+    transform: scale(1.4);
+    margin-left: 1px;
+}
+
+.sites {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+    padding-top: 72px;
+    font-size: 30px;
+    font-family: 'Kanit';
+}
+.p {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Kanit';
+}
+
+.tabela{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    font-size: 20px;
+    padding-top: 72px;
+    margin: 20px;
+    font-family: 'Kanit';
+}
+
+table {
+    margin: 0px 30px;
+}
+
+.tabtitulo {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Kanit';
+}
+
+.tdzin {
+    padding: 3px;
+    font-family: 'Kanit';
+}
+
+.tdtd {
+    padding-top: 3px;
+    padding: left 5px;
+    padding-bottom: 3px;
+    font-family: 'Kanit';
+}
+
+#autor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 3px solid orange;
+    padding: 0%;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+
+}
+
+
+
+.dados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Kanit';
+}
+
+.footer{
+    display: block;
+    flex-wrap: wrap;
+ 
+    padding: 35px;
+    justify-content: space-between;
+
+    background-color: rgb(75, 75, 75);
+    color: orange;
+    font-family: 'Kanit';
+}
+
+.footnav {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+}
+
+.footdiv {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.tit1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 20px;
+    font-family: 'Kanit';
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.tit1:hover {
+    transition: transform 0.7s;
+    transform: scale(1.2);
+    
+}
+
+
+.tit2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 20px;
+    font-family: 'Kanit';
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.tit2:hover {
+    transition: transform 0.7s;
+    transform: scale(1.2);
+    
+}
+
+.pis {
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.pis:hover {
+    transition: transform 0.7s;
+    transform: scale(1.1);
+}
